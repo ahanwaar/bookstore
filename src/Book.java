@@ -4,6 +4,8 @@ public class Book {
     private int isbn;
     private int year;
     private int rating; //rate should be 5/5
+    private double price; //added
+
 
     public Book(String title, Author author, int isbn, int year) {
         this.title = title;
