@@ -3,6 +3,7 @@ public class Book {
     private Author author;
     private int isbn;
     private int year;
+    private int rating; //rate should be 5/5
 
     public Book(String title, Author author, int isbn, int year) {
         this.title = title;
